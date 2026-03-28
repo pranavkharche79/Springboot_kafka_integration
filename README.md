@@ -97,8 +97,4 @@ Watch the consumer's console logs to observe the high-throughput processing powe
 
 Here is a quick demonstration of the integration and high-throughput processing:
 
-<video src="images/springboot-kafka-integration.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
-
-*(If the video doesn't play directly in your viewer, you can find it in the [`images` folder](images/springboot-kafka-integration.mp4).)*
+![Demonstration](images/springboot-kafka-integration.gif)
