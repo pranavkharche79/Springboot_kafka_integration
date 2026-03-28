@@ -1,0 +1,46 @@
+# Standard IDE configurations
+.metadata
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# Maven ignores
+target/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Build and crash logs
+hs_err_pid*
+replay_pid*
+*.log
+
+# Kafka data directory
+# Ignoring the 'logs' folder based on your server.properties configuration: log.dirs=logs
+logs/
+kafka-logs/
+zookeeper-data/
+*.st
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Other temp files
+tmp/
+*.tmp
+*.bak
+*.swp

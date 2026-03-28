@@ -1,0 +1,16 @@
+Generate new Cluster ID
+bin\windows\kafka-storage.bat random-uuid
+
+Copy that ID
+
+Format again
+bin\windows\kafka-storage.bat format -t NEW_ID -c config\server.properties
+
+kafka start
+bin\windows\kafka-server-start.bat config\server.properties
+
+Producer
+bin\windows\kafka-console-producer.bat --topic pranav-topic --bootstrap-server localhost:9092
+
+Consumer
+bin\windows\kafka-console-consumer.bat --topic pranav-topic --from-beginning --bootstrap-server localhost:9092
